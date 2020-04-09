@@ -26,7 +26,7 @@ namespace CollectionsMasterConsoleUI
 
             Console.WriteLine("All Numbers Original");
             //Use this method to print out your numbers from arrays or lists
-            //NumberPrinter();
+            NumberPrinter(numbers);
             Console.WriteLine("-------------------");
 
             //Reverse the contents of the array and then print the array out to the console.
