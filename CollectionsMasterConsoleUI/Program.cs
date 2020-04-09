@@ -105,7 +105,6 @@ namespace CollectionsMasterConsoleUI
 
             //Clear the list
             numberList.Clear();
-
             #endregion
         }
 
