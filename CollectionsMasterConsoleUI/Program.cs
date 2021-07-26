@@ -81,12 +81,12 @@ namespace CollectionsMasterConsoleUI
             Console.WriteLine("-------------------");
 
             //Create a method that will remove all odd numbers from the list then print results
-            Console.WriteLine("Odds Only!!");
+            Console.WriteLine("Evens Only!!");
             
             Console.WriteLine("------------------");
 
             //Sort the list then print results
-            Console.WriteLine("Sorted Odds!!");
+            Console.WriteLine("Sorted Evens!!");
             
             Console.WriteLine("------------------");
 
