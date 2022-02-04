@@ -142,18 +142,10 @@ namespace CollectionsMasterConsoleUI
 
         private static void OddKiller(List<int> numberList)
         {
-            List<int> odds = new List<int>();
-            foreach (int num in numberList)
+            List<int> clone = new List<int>(numberList);
+            foreach (int num in clone)
             {
                 if(num % 2 != 0)
-                {
-                    odds.Add(num);
-                }
-            }
-
-            foreach( int num in odds)
-            {
-                if (numberList.Contains(num))
                 {
                     numberList.Remove(num);
                 }
